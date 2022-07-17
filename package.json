@@ -9,6 +9,7 @@
     "generate": "nuxt generate",
     "heroku-prebuild": "npm i -f"
   },
+  "optionalDependencies": { "fsevents": "*" },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/pwa": "^3.3.5",
